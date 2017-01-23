@@ -1,4 +1,6 @@
 
+/*FONT PROPERTIES*/
+/*Links*/
 a:link {
   color: #98dafc;
   font-weight: bold;
@@ -10,52 +12,12 @@ a:hover {
     background-color: #FFFFCC;
     }
 
+/*Emphasis*/
 em {
     font-style: italic;
 }
 
-body{
-  font-family: Georgia, Cambria, "Times New Roman", serif;
-  font-size=100%;
-    background-color: #98dafc;
-    size: 100%;
-}
-
-figure img{
-  width: 98%;
-  margin-top: 0.4em;
-  margin-right: 0.4em;
-  border: thin solid black;
-  padding: 0.25em
-}
-
-.byline{
-  color: #98dafc;
-  font-style: italic;
-  font-size: 0.75em;
-  margin-top: 0.4em;
-}
-
-figcaption .byline{
-  margin-top: 0;
-}
-
-section{
-    margin: 0em 4em 0em 4em;
-  background-color: white;
-  padding: 0.8em 0.4em;
-}
-
-#descr p:nth-child(2){
-    margin-bottom: 0.4em;
-}
-
-nav li{
-display: inline;
-list-style-type: none;
-padding-left: 5px;
-}
-
+/*Headings*/
 h1{
   font-size: 1.5em;
 }
@@ -66,61 +28,116 @@ h2{
 h3{
   font-size: 1.125em;
   margin-right: 0.4em;
-  border-bottom: thin solid silver;
+  border-bottom: medium solid silver;
 }
 
-nav{
-  font-size: 1.125em;
-    padding-bottom: 5px;
-}
+/*Font Family: Headings, Nav, & Footer*/
 h1, h2, h3, nav, footer{
   font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
 }
 
+/*Byline Settings*/
+.byline{
+  color: #667399;
+  font-style: italic;
+  font-size: 0.75em;
+  margin-top: 0.4em;
+}
+
+/*Bring caption closer to photograph to better emulate given formatting*/
+figcaption.byline{
+  margin-top:0em;
+}
+
+/*HEAD*/
+/*Navigation*/
+nav{
+  font-size: 1.125em;
+    padding-bottom: 5px;
+}
+
+nav li{
+display: inline; /*display content on a single line*/
+list-style-type: none; /*remove bullets*/
+padding-left: 5px; /*left indent*/
+}
+
+/*BODY*/
+/*General Body Settings*/
+body{
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size=100%;
+    background-color: #98dafc;
+    size: 100%;
+}
+
+/*Figures*/
+figure img{
+  width: 98%;
+  margin-top: 0.4em;
+  margin-right: 0.4em;
+  border: thin solid black;
+  padding: 0.25em
+}
+
+/*Sections*/
+section{
+    margin: 0em 4em 0em 4em;
+  background-color: white;
+  padding: 0.8em 0.4em;
+}
+
+/*Description*/
+#descr p:nth-child(2){
+    margin-bottom: 0.4em;
+}
+
+/*Description*/
 #photos div{
   padding-top: 0.4em;
   margin-right: 2em;
 }
 
-.social{
-  width: 98%;
-  background-image: url("images/gray-gradient.png");
-  border: thin solid silver;
-  background-repeat: repeat-x;
-  padding: 0.6em 0 0.5em 0.5em;
-  border-radius: 0.4em;
-  vertical-align: middle;
-  margin-top: 0.4em;
-
-}
-
-.social img{
+/*Social*/
+.socialboxes{
   display: inline-block;
   vertical-align: middle;
-}
-
-.social>*{
   font-size: 70%;
+}
+
+.social{
+    background-image: url("../images/gray-gradient.png");
+    background-repeat: repeat-x; /*repeat along horizontal axis*/
+  width: 98%;
+  border: thin solid silver;
+  padding: 0.7em 0 0.7em 0.5em; /*increase height of "image"*/
+  border-radius: 0.4em; /*rounded corners*/
+  margin-top: 0.4em;
+}
+
+.social img{ /*ensure social media icons are vertically aligned*/
   display: inline-block;
   vertical-align: middle;
 }
 
+/*Reviews*/
 #reviews div{
   border-bottom: thin dotted silver;
   margin: 0.3em 0.4em 1.2em 0;
       border-top: thin solid silver;
 }
 
-#reviews div:nth-child(2){
+#reviews div:nth-child(2){ /*control spacing*/
     border-top:0;
     padding-top:0;
 }
 
-#reviews{
+#reviews{ /*control spacing*/
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
 
+/*Header & Footer*/
 header, footer{
 color: white;
 background-color: #312c32;
@@ -129,5 +146,5 @@ margin: 0em 4em 0.5em 4em;
 
 footer{
 padding: 0px 10px 10px 7px;
-font-size: 1em;
+font-size: 100%;
 }
