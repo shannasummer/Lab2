@@ -1,0 +1,133 @@
+
+a:link {
+  color: #98dafc;
+  font-weight: bold;
+  }
+a:visited {
+    color: #daad86;
+    }
+a:hover {
+    background-color: #FFFFCC;
+    }
+
+em {
+    font-style: italic;
+}
+
+body{
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size=100%;
+    background-color: #98dafc;
+    size: 100%;
+}
+
+figure img{
+  width: 98%;
+  margin-top: 0.4em;
+  margin-right: 0.4em;
+  border: thin solid black;
+  padding: 0.25em
+}
+
+.byline{
+  color: #98dafc;
+  font-style: italic;
+  font-size: 0.75em;
+  margin-top: 0.4em;
+}
+
+figcaption .byline{
+  margin-top: 0;
+}
+
+section{
+    margin: 0em 4em 0em 4em;
+  background-color: white;
+  padding: 0.8em 0.4em;
+}
+
+#descr p:nth-child(2){
+    margin-bottom: 0.4em;
+}
+
+nav li{
+display: inline;
+list-style-type: none;
+padding-left: 5px;
+}
+
+h1{
+  font-size: 1.5em;
+}
+h2{
+  font-size: 0.75em;
+  margin-right: 0.4em;
+}
+h3{
+  font-size: 1.125em;
+  margin-right: 0.4em;
+  border-bottom: thin solid silver;
+}
+
+nav{
+  font-size: 1.125em;
+    padding-bottom: 5px;
+}
+h1, h2, h3, nav, footer{
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+#photos div{
+  padding-top: 0.4em;
+  margin-right: 2em;
+}
+
+.social{
+  width: 98%;
+  background-image: url("images/gray-gradient.png");
+  border: thin solid silver;
+  background-repeat: repeat-x;
+  padding: 0.6em 0 0.5em 0.5em;
+  border-radius: 0.4em;
+  vertical-align: middle;
+  margin-top: 0.4em;
+
+}
+
+.social img{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.social>*{
+  font-size: 70%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#reviews div{
+  border-bottom: thin dotted silver;
+  margin: 0.3em 0.4em 1.2em 0;
+      border-top: thin solid silver;
+}
+
+#reviews div:nth-child(2){
+    border-top:0;
+    padding-top:0;
+}
+
+#reviews{
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+header, footer{
+color: white;
+background-color: #312c32;
+margin: 0em 4em 0.5em 4em;
+}
+
+footer{
+padding: 0px 10px 10px 7px;
+font-size: 1em;
+}
